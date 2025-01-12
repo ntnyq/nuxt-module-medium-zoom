@@ -1,0 +1,21 @@
+{
+  "name": "playground",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "@unocss/reset": "^65.4.0"
+  },
+  "devDependencies": {
+    "@nuxt-dev/medium-zoom": "workspace:*",
+    "@unocss/nuxt": "^65.4.0",
+    "medium-zoom": "catalog:",
+    "nuxt": "catalog:",
+    "unocss": "^65.4.0"
+  }
+}

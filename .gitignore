@@ -1,0 +1,18 @@
+.DS_Store
+node_modules
+*.log*
+*.local
+
+# Editor
+.idea
+*.suo
+*.sln
+*.sw?
+
+.eslintcache
+*.tsbuildinfo
+
+.nuxt
+dist
+.output
+coverage
