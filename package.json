@@ -5,23 +5,24 @@
   "packageManager": "pnpm@9.15.4",
   "description": "MediumZoom integrated for Nuxt",
   "keywords": [
+    "image",
     "medium-zoom",
     "nuxt",
-    "nuxt-module"
+    "nuxt-module",
+    "nuxt3"
   ],
   "license": "MIT",
   "author": {
     "name": "ntnyq",
     "email": "ntnyq13@gmail.com"
   },
-  "homepage": "https://nuxt-dev.ntnyq.com",
+  "homepage": "https://nuxt-module-medium-zoom.ntnyq.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ntnyq/nuxt-dev.git",
-    "directory": "packages/medium-zoom"
+    "url": "git+https://github.com/ntnyq/nuxt-module-medium-zoom.git"
   },
   "bugs": {
-    "url": "https://github.com/ntnyq/nuxt-dev/issues"
+    "url": "https://github.com/ntnyq/nuxt-module-medium-zoom/issues"
   },
   "exports": {
     ".": {
