@@ -20,5 +20,5 @@
     "javascriptreact",
     "typescriptreact"
   ],
-  "cSpell.words": ["bumpp", "changelogithub", "defu", "lcov", "nuxi", "nuxt", "unplugin"]
+  "cSpell.words": ["bumpp", "changelogithub", "defu", "lcov", "nuxi", "nuxt", "unplugin", "vitest"]
 }

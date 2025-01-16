@@ -9,13 +9,13 @@
     "generate": "nuxi generate"
   },
   "dependencies": {
-    "@unocss/reset": "^65.4.0"
+    "@unocss/reset": "catalog:"
   },
   "devDependencies": {
     "@nuxt-dev/medium-zoom": "workspace:*",
-    "@unocss/nuxt": "^65.4.0",
+    "@unocss/nuxt": "catalog:",
     "medium-zoom": "catalog:",
     "nuxt": "catalog:",
-    "unocss": "^65.4.0"
+    "unocss": "catalog:"
   }
 }

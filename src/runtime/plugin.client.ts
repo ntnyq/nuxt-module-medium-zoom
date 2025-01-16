@@ -28,6 +28,6 @@ export default defineNuxtPlugin({
   },
 })
 
-function waitFor(ms: number) {
+function waitFor(ms = 0) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
