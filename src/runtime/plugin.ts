@@ -5,6 +5,7 @@ import { mediumZoomSymbol } from './composables/useMediumZoom'
 export default defineNuxtPlugin({
   name: 'medium-zoom',
   setup(nuxtApp) {
+    const router = useRouter()
     const runtimeConfig = useRuntimeConfig()
     const zoomOptions = runtimeConfig.public.mediumZoom
 
@@ -19,7 +20,10 @@ export default defineNuxtPlugin({
 
     nuxtApp.vueApp.provide(mediumZoomSymbol, zoom)
 
-    const router = useRouter()
+    nuxtApp.hook('app:mounted', async () => {
+      await waitFor(zoomOptions.delay)
+      zoom.refresh()
+    })
 
     router.afterEach(async () => {
       await waitFor(zoomOptions.delay)

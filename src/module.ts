@@ -31,16 +31,14 @@ export default defineNuxtModule<MediumZoomOptions>({
       options,
     )
 
-    addImports(
-      ['useMediumZoom'].map(name => ({
-        from: resolve(`runtime/composables/${name}`),
-        name,
-      })),
-    )
+    addImports({
+      from: resolve('runtime/composables/useMediumZoom'),
+      name: 'useMediumZoom',
+    })
 
     addPlugin({
       name: 'medium-zoom',
-      src: resolve('runtime/plugin.client'),
+      src: resolve('runtime/plugin'),
       mode: 'client',
     })
   },
