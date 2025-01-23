@@ -1,7 +1,7 @@
 {
   "name": "@nuxt-dev/medium-zoom",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packageManager": "pnpm@9.15.4",
   "description": "MediumZoom integrated for Nuxt",
   "keywords": [
