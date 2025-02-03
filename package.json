@@ -73,7 +73,7 @@
   "devDependencies": {
     "@ntnyq/eslint-config": "^3.12.3",
     "@ntnyq/prettier-config": "^1.22.1",
-    "@nuxt/eslint-config": "^0.7.5",
+    "@nuxt/eslint-config": "^1.0.0",
     "@nuxt/module-builder": "^0.8.4",
     "@nuxt/schema": "catalog:",
     "@types/node": "^22.10.8",
