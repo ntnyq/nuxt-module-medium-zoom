@@ -2,14 +2,16 @@
   "eslint.enable": true,
   "prettier.enable": true,
   "editor.formatOnSave": true,
+  "prettier.configPath": "./prettier.config.mjs",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never",
+    "source.sortImports": "never"
   },
   "eslint.validate": [
     "vue",
     "yaml",
-    "html",
     "toml",
     "json",
     "jsonc",
@@ -20,5 +22,14 @@
     "javascriptreact",
     "typescriptreact"
   ],
-  "cSpell.words": ["bumpp", "changelogithub", "defu", "lcov", "nuxi", "nuxt", "unplugin", "vitest"]
+  "cSpell.words": [
+    "bumpp",
+    "changelogithub",
+    "defu",
+    "lcov",
+    "nuxi",
+    "nuxt",
+    "unplugin",
+    "vitest"
+  ]
 }
