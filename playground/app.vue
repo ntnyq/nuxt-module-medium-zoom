@@ -1,3 +1,9 @@
+<script lang="ts" setup>
+useServerHeadSafe({
+  title: '@nuxt-dev/medium-zoom',
+})
+</script>
+
 <template>
   <div class="relative h-screen flex-center">
     <img

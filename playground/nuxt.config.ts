@@ -4,11 +4,6 @@ export default defineNuxtConfig({
   mediumZoom: {},
   modules: ['@unocss/nuxt', '@nuxt-dev/medium-zoom'],
   ssr: false,
-  app: {
-    head: {
-      title: '@nuxt-dev/medium-zoom',
-    },
-  },
   experimental: {
     appManifest: false,
   },
