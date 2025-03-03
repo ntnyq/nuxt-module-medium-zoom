@@ -3,11 +3,11 @@ catalog:
   '@nuxt/schema': ^3.15.4
   '@unocss/nuxt': ^66.0.0
   '@unocss/reset': ^66.0.0
-  '@vitest/coverage-v8': ^3.0.6
+  '@vitest/coverage-v8': ^3.0.7
   medium-zoom: ^1.1.0
   nuxt: ^3.15.4
   unocss: ^66.0.0
-  vitest: ^3.0.6
+  vitest: ^3.0.7
 packages:
   - .
   - playground
