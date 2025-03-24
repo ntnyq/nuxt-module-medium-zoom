@@ -2,12 +2,12 @@ packages:
   - .
   - playground
 catalog:
-  '@nuxt/kit': ^3.16.0
-  '@nuxt/schema': ^3.16.0
+  '@nuxt/kit': ^3.16.1
+  '@nuxt/schema': ^3.16.1
   '@unocss/nuxt': ^66.0.0
   '@unocss/reset': ^66.0.0
-  '@vitest/coverage-v8': ^3.0.8
+  '@vitest/coverage-v8': ^3.0.9
   medium-zoom: ^1.1.0
-  nuxt: ^3.16.0
+  nuxt: ^3.16.1
   unocss: ^66.0.0
-  vitest: ^3.0.8
+  vitest: ^3.0.9
