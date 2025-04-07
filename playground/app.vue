@@ -1,7 +1,9 @@
 <script lang="ts" setup>
-useServerHeadSafe({
-  title: '@nuxt-dev/medium-zoom',
-})
+if (import.meta.server) {
+  useHeadSafe({
+    title: '@nuxt-dev/medium-zoom',
+  })
+}
 </script>
 
 <template>

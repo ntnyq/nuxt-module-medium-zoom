@@ -2,7 +2,7 @@
   "name": "@nuxt-dev/medium-zoom",
   "type": "module",
   "version": "0.0.2",
-  "packageManager": "pnpm@10.7.0",
+  "packageManager": "pnpm@10.7.1",
   "description": "MediumZoom integrated for Nuxt",
   "keywords": [
     "image",
@@ -27,19 +27,12 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "import": {
-        "types": "./dist/types.d.mts",
-        "default": "./dist/module.mjs"
-      },
-      "require": {
-        "types": "./dist/types.d.ts",
-        "default": "./dist/module.cjs"
-      }
+      "types": "./dist/types.d.mts",
+      "default": "./dist/module.mjs"
     }
   },
-  "main": "./dist/module.cjs",
-  "module": "./dist/module.mjs",
-  "types": "./dist/types.d.ts",
+  "main": "./dist/module.mjs",
+  "types": "./dist/types.d.mts",
   "files": [
     "dist"
   ],
@@ -49,11 +42,10 @@
   "scripts": {
     "build": "nuxt-module-build build",
     "clean": "premove dist .turbo .nuxt",
-    "coverage": "vitest --coverage",
     "deploy": "run-s dev:prepare build play:build",
     "dev": "nuxi dev playground",
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
-    "lint": "eslint .",
+    "lint": "eslint",
     "play:build": "nuxi generate playground",
     "play:dev": "nuxi dev playground",
     "prepare": "husky",
@@ -71,35 +63,25 @@
     "medium-zoom": "catalog:"
   },
   "devDependencies": {
-    "@ntnyq/eslint-config": "^4.0.2",
+    "@ntnyq/eslint-config": "^4.0.3",
     "@ntnyq/prettier-config": "^2.0.0",
     "@nuxt/eslint-config": "^1.3.0",
-    "@nuxt/module-builder": "^0.8.4",
+    "@nuxt/module-builder": "^1.0.0",
     "@nuxt/schema": "catalog:",
-    "@types/node": "^22.13.14",
-    "@vitest/coverage-v8": "catalog:",
+    "@types/node": "^22.14.0",
     "bumpp": "^10.1.0",
-    "eslint": "^9.23.0",
+    "eslint": "^9.24.0",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^7.0.2",
     "nuxt": "catalog:",
     "premove": "^4.0.0",
     "prettier": "^3.5.3",
-    "tsx": "^4.19.3",
-    "typescript": "~5.6.3",
+    "typescript": "^5.8.3",
     "vitest": "catalog:"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ],
-    "overrides": {
-      "esbuild": "^0.25.2"
-    }
-  },
   "nano-staged": {
-    "*.{js,ts,mjs,cjs,vue,json,md,yml,yaml,svg}": "eslint --fix",
+    "*.{js,ts,mjs,cjs,vue,md,svg,yml,yaml,json}": "eslint --fix",
     "*.{css,scss,html}": "prettier -uw"
   }
 }
