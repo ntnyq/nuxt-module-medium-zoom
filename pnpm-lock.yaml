@@ -52,8 +52,8 @@ importers:
         specifier: ^4.3.0
         version: 4.3.0(@types/eslint@9.6.1)(@typescript-eslint/utils@8.32.1(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.14)(eslint-plugin-format@1.0.1(eslint@9.27.0(jiti@2.4.2)))(eslint-plugin-unused-imports@4.1.4(@typescript-eslint/eslint-plugin@8.32.1(@typescript-eslint/parser@8.32.1(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.27.0(jiti@2.4.2)))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.4(@types/debug@4.1.12)(@types/node@22.15.21)(jiti@2.4.2)(terser@5.37.0)(tsx@4.19.3)(yaml@2.8.0))
       '@ntnyq/prettier-config':
-        specifier: ^2.1.0
-        version: 2.1.0
+        specifier: ^2.2.0
+        version: 2.2.0
       '@nuxt/eslint-config':
         specifier: ^1.4.1
         version: 1.4.1(@vue/compiler-sfc@3.5.14)(eslint-plugin-format@1.0.1(eslint@9.27.0(jiti@2.4.2)))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
@@ -79,8 +79,8 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0
       npm-run-all2:
-        specifier: ^8.0.3
-        version: 8.0.3
+        specifier: ^8.0.4
+        version: 8.0.4
       nuxt:
         specifier: 'catalog:'
         version: 3.17.4(@netlify/blobs@8.2.0)(@parcel/watcher@2.5.0)(@types/node@22.15.21)(db0@0.3.2)(eslint@9.27.0(jiti@2.4.2))(ioredis@5.6.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.41.0)(terser@5.37.0)(tsx@4.19.3)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.21)(jiti@2.4.2)(terser@5.37.0)(tsx@4.19.3)(yaml@2.8.0))(yaml@2.8.0)
@@ -701,9 +701,8 @@ packages:
       eslint-plugin-unused-imports:
         optional: true
 
-  '@ntnyq/prettier-config@2.1.0':
-    resolution: {integrity: sha512-tmBfcQjzAPHavJRvsvuHUWAZBdBZXbmPbghbmkQGSyLhR+1r9nBp106R0DLlKyj7zVU1y7YTJ+irz1owJPZZ9Q==}
-    engines: {node: '>=18.18.0'}
+  '@ntnyq/prettier-config@2.2.0':
+    resolution: {integrity: sha512-FThP39/iAeyWACoXcWb52x6R3G1tD7J+UKcagbqepa18Kpz5PKuKLOShxAC4hwhAE09wHc7+gmmnW1K4EuN+Fw==}
 
   '@ntnyq/utils@0.6.5':
     resolution: {integrity: sha512-sjCzIYGXvRRuwN37twCVjszeDTfPtDE3hQ+vT/orH9Xo0ubKQDEA+HsyTewN1vo3ao0Kl3DGpsgPJ4nxy+nyvQ==}
@@ -4239,8 +4238,8 @@ packages:
     resolution: {integrity: sha512-TZKxPvItzai9kN9H/TkmCtx/ZN/hvr3vUycjlfmH0ootY9yFBzNOpiXAdIn1Iteqsvk4lQn6B5PTrt+n6h8k/w==}
     engines: {node: ^18.17.0 || >=20.5.0}
 
-  npm-run-all2@8.0.3:
-    resolution: {integrity: sha512-0mAycidMUMThrLt8AT3LGtOMgfLaMg6/4oUKHTKMU0jDSIsdKBsKp98H8zBFcJylQC4CtOB140UUFbOlFyE9gA==}
+  npm-run-all2@8.0.4:
+    resolution: {integrity: sha512-wdbB5My48XKp2ZfJUlhnLVihzeuA1hgBnqB2J9ahV77wLS+/YAJAlN8I+X3DIFIPZ3m5L7nplmlbhNiFDmXRDA==}
     engines: {node: ^20.5.0 || >=22.0.0, npm: '>= 10'}
     hasBin: true
 
@@ -6782,7 +6781,7 @@ snapshots:
       - typescript
       - vitest
 
-  '@ntnyq/prettier-config@2.1.0': {}
+  '@ntnyq/prettier-config@2.2.0': {}
 
   '@ntnyq/utils@0.6.5': {}
 
@@ -11024,12 +11023,12 @@ snapshots:
 
   npm-normalize-package-bin@4.0.0: {}
 
-  npm-run-all2@8.0.3:
+  npm-run-all2@8.0.4:
     dependencies:
       ansi-styles: 6.2.1
       cross-spawn: 7.0.6
       memorystream: 0.3.1
-      minimatch: 10.0.1
+      picomatch: 4.0.2
       pidtree: 0.6.0
       read-package-json-fast: 4.0.0
       shell-quote: 1.8.2
