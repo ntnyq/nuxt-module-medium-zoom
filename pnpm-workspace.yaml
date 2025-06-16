@@ -4,13 +4,13 @@ packages:
 catalog:
   '@nuxt/kit': ^3.17.5
   '@nuxt/schema': ^3.17.5
-  '@unocss/nuxt': ^66.1.4
-  '@unocss/reset': ^66.1.4
-  '@vitest/coverage-v8': ^3.2.2
+  '@unocss/nuxt': ^66.2.1
+  '@unocss/reset': ^66.2.1
+  '@vitest/coverage-v8': ^3.2.3
   medium-zoom: ^1.1.0
   nuxt: ^3.17.5
-  unocss: ^66.1.4
-  vitest: ^3.2.2
+  unocss: ^66.2.1
+  vitest: ^3.2.3
 overrides:
   esbuild: ^0.25.2
 onlyBuiltDependencies:
