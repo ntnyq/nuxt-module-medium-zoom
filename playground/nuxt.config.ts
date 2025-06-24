@@ -8,6 +8,11 @@ export default defineNuxtConfig({
   mediumZoom: {},
   modules: ['@unocss/nuxt', '@nuxt-dev/medium-zoom'],
   ssr: false,
+  app: {
+    head: {
+      title: 'Nuxt Playground',
+    },
+  },
   experimental: {
     appManifest: false,
   },

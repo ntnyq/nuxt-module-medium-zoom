@@ -9,7 +9,9 @@ export default defineNuxtPlugin({
     const runtimeConfig = useRuntimeConfig()
     const zoomOptions = runtimeConfig.public.mediumZoom
 
-    if (!zoomOptions || !import.meta.client) return
+    if (!zoomOptions || !import.meta.client) {
+      return
+    }
 
     const zoom = mediumZoom(zoomOptions)
 
