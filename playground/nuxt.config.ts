@@ -3,7 +3,7 @@
  */
 
 export default defineNuxtConfig({
-  compatibilityDate: '2025-01-12',
+  compatibilityDate: '2025-07-12',
   css: ['@unocss/reset/tailwind.css'],
   mediumZoom: {},
   modules: ['@unocss/nuxt', '@nuxt-dev/medium-zoom'],

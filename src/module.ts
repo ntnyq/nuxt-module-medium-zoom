@@ -60,7 +60,6 @@ declare module '@nuxt/schema' {
   }
 
   interface PublicRuntimeConfig {
-    // @ts-expect-error ts2687
     mediumZoom?: Required<MediumZoomOptions>
   }
 }
