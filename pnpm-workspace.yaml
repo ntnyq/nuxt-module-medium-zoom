@@ -1,13 +1,13 @@
 packages:
   - playground
 catalog:
-  '@nuxt/kit': ^4.0.2
-  '@nuxt/schema': ^4.0.2
-  '@unocss/nuxt': ^66.4.1
-  '@unocss/reset': ^66.4.1
+  '@nuxt/kit': ^4.0.3
+  '@nuxt/schema': ^4.0.3
+  '@unocss/nuxt': ^66.4.2
+  '@unocss/reset': ^66.4.2
   medium-zoom: ^1.1.0
-  nuxt: ^4.0.2
-  unocss: ^66.4.1
+  nuxt: ^4.0.3
+  unocss: ^66.4.2
   vitest: ^3.2.4
 overrides:
   esbuild: ^0.25.6
