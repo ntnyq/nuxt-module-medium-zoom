@@ -8,7 +8,7 @@ catalog:
   medium-zoom: ^1.1.0
   nuxt: ^4.2.1
   unocss: ^66.5.9
-  vitest: ^4.0.13
+  vitest: ^4.0.14
 overrides:
   esbuild: ^0.25.6
 onlyBuiltDependencies:
