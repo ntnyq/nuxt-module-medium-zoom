@@ -8,9 +8,9 @@ catalog:
   medium-zoom: ^1.1.0
   nuxt: ^4.2.2
   unocss: ^66.5.10
-  vitest: ^4.0.15
+  vitest: ^4.0.16
 overrides:
-  esbuild: ^0.25.6
+  esbuild: ^0.27.2
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
