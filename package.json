@@ -2,7 +2,7 @@
   "name": "@nuxt-dev/medium-zoom",
   "type": "module",
   "version": "0.1.0",
-  "packageManager": "pnpm@10.28.1",
+  "packageManager": "pnpm@10.28.2",
   "description": "MediumZoom integrated for Nuxt",
   "keywords": [
     "image",
@@ -67,7 +67,7 @@
     "@nuxt/eslint-config": "^1.13.0",
     "@nuxt/module-builder": "^1.0.2",
     "@nuxt/schema": "catalog:",
-    "@types/node": "^25.0.10",
+    "@types/node": "^25.2.0",
     "bumpp": "^10.4.0",
     "eslint": "^9.39.2",
     "husky": "^9.1.7",
