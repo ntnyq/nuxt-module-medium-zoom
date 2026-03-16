@@ -3,11 +3,11 @@ packages:
 catalog:
   '@nuxt/kit': ^4.3.1
   '@nuxt/schema': ^4.3.1
-  '@unocss/nuxt': ^66.6.5
-  '@unocss/reset': ^66.6.5
+  '@unocss/nuxt': ^66.6.6
+  '@unocss/reset': ^66.6.6
   medium-zoom: ^1.1.0
   nuxt: ^4.3.1
-  unocss: ^66.6.5
+  unocss: ^66.6.6
   vitest: ^4.0.18
 overrides:
   esbuild: ^0.27.3
