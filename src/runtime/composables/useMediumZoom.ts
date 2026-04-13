@@ -10,6 +10,9 @@ declare module 'medium-zoom' {
   }
 }
 
+/**
+ * Client only composable to access the medium-zoom instance provided by the provider component. It will throw an error if the provider is not found.
+ */
 export function useMediumZoom(): Zoom {
   const zoom = inject(mediumZoomSymbol)
 
@@ -18,4 +21,11 @@ export function useMediumZoom(): Zoom {
   }
 
   return zoom
+}
+
+/**
+ * Safe composable to access the medium-zoom instance provided by the provider component. It will return null if the provider is not found.
+ */
+export function useMediumZoomSafe(): Zoom | null {
+  return inject(mediumZoomSymbol, null)
 }

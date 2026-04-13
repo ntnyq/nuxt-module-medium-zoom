@@ -5,16 +5,18 @@
 import {
   defineConfig,
   presetIcons,
-  presetWind3,
+  presetWind4,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
 
 export default defineConfig({
+  shortcuts: [],
+
   transformers: [transformerDirectives(), transformerVariantGroup()],
 
   presets: [
-    presetWind3(),
+    presetWind4(),
     presetIcons({
       autoInstall: true,
       scale: 1.2,
@@ -24,11 +26,5 @@ export default defineConfig({
         'min-width': '1.2em',
       },
     }),
-  ],
-
-  shortcuts: [
-    {
-      'flex-center': 'flex justify-center items-center',
-    },
   ],
 })

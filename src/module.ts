@@ -41,10 +41,21 @@ export default defineNuxtModule<MediumZoomOptions>({
       name: 'useMediumZoom',
     })
 
+    addImports({
+      from: resolve('runtime/composables/useMediumZoom'),
+      name: 'useMediumZoomSafe',
+    })
+
     addPlugin({
-      name: 'medium-zoom',
-      src: resolve('runtime/plugin'),
+      name: 'medium-zoom-client',
+      src: resolve('runtime/plugin.client'),
       mode: 'client',
+    })
+
+    addPlugin({
+      name: 'medium-zoom-server',
+      src: resolve('runtime/plugin.server'),
+      mode: 'server',
     })
   },
 })
@@ -55,7 +66,7 @@ declare module '@nuxt/schema' {
   }
 
   interface NuxtOptions {
-    // @ts-expect-error ts2687
+    // @ts-expect-error types
     mediumZoom?: MediumZoomOptions
   }
 

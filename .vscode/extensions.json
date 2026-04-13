@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "oxc.oxc-vscode",
+    "antfu.unocss",
+    "vue.volar"
+  ]
+}

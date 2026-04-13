@@ -3,11 +3,10 @@
  */
 
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-12',
+  compatibilityDate: '2026-04-12',
   css: ['@unocss/reset/tailwind.css'],
   mediumZoom: {},
   modules: ['@unocss/nuxt', '@nuxt-dev/medium-zoom'],
-  ssr: false,
   app: {
     head: {
       title: 'Nuxt Playground',
@@ -15,8 +14,17 @@ export default defineNuxtConfig({
   },
   experimental: {
     appManifest: false,
+    payloadExtraction: 'client',
   },
   nitro: {
     preset: 'static',
+  },
+  vite: {
+    optimizeDeps: {
+      include: ['medium-zoom'],
+    },
+    resolve: {
+      dedupe: ['nitropack'],
+    },
   },
 })

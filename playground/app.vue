@@ -7,7 +7,7 @@ if (import.meta.server) {
 </script>
 
 <template>
-  <div class="relative h-screen flex-center">
+  <div class="relative h-screen flex justify-center items-center">
     <img
       class="block max-w-280px md:max-w-400px"
       src="https://unocss-presets.ntnyq.com/images/xingtong.png"
