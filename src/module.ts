@@ -65,11 +65,6 @@ declare module '@nuxt/schema' {
     mediumZoom?: MediumZoomOptions
   }
 
-  interface NuxtOptions {
-    // @ts-expect-error types
-    mediumZoom?: MediumZoomOptions
-  }
-
   interface PublicRuntimeConfig {
     mediumZoom?: Required<MediumZoomOptions>
   }
