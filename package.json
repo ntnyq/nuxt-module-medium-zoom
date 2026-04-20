@@ -60,22 +60,22 @@
   },
   "dependencies": {
     "@nuxt/kit": "catalog:",
-    "defu": "^6.1.6",
+    "defu": "^6.1.7",
     "medium-zoom": "catalog:"
   },
   "devDependencies": {
-    "@ntnyq/eslint-config": "^6.0.0",
+    "@ntnyq/eslint-config": "^6.0.1",
     "@nuxt/eslint-config": "^1.15.2",
     "@nuxt/module-builder": "^1.0.2",
     "@nuxt/schema": "catalog:",
-    "@types/node": "^25.5.2",
+    "@types/node": "^25.6.0",
     "bumpp": "^11.0.1",
     "eslint": "^10.2.0",
     "husky": "^9.1.7",
     "nano-staged": "^0.9.0",
     "npm-run-all2": "^8.0.4",
     "nuxt": "catalog:",
-    "oxfmt": "^0.43.0",
+    "oxfmt": "^0.44.0",
     "premove": "^4.0.0",
     "typescript": "^5.9.3",
     "vitest": "catalog:"
