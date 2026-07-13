@@ -4,12 +4,12 @@ packages:
 catalog:
   '@nuxt/kit': ^4.4.8
   '@nuxt/schema': ^4.4.8
-  '@unocss/nuxt': ^66.7.3
-  '@unocss/reset': ^66.7.3
+  '@unocss/nuxt': ^66.7.4
+  '@unocss/reset': ^66.7.4
   medium-zoom: ^1.1.0
   nuxt: ^4.4.8
-  unocss: ^66.7.3
-  vitest: ^4.1.9
+  unocss: ^66.7.4
+  vitest: ^4.1.10
 
 overrides:
   esbuild: ^0.28.1
