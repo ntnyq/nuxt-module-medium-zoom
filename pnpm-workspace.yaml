@@ -9,7 +9,7 @@ catalog:
   medium-zoom: ^1.1.0
   nuxt: ^4.5.2
   unocss: ^66.10.5
-  vitest: ^5.0.1
+  vitest: ^5.0.2
 
 overrides:
   esbuild: ^0.28.2
