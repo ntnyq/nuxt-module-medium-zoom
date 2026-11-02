@@ -68,7 +68,7 @@
     "@nuxt/eslint-config": "^1.17.0",
     "@nuxt/module-builder": "^1.0.3",
     "@nuxt/schema": "catalog:",
-    "@types/node": "^25.9.9",
+    "@types/node": "^26.6.5",
     "bumpp": "^12.3.0",
     "eslint": "^10.13.0",
     "husky": "^9.1.7",
